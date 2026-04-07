@@ -48,10 +48,15 @@ class ViewController: UITableViewController {
             } else if tappedIndexPath.row == 1{
                 destinationVC.incomingTitle = "Key Topics"
                 destinationVC.incomingDetails = "1. Auto Layout & Constraints\n2. Dynamic Table Views\n3. Navigation Controllers & Segues\n4. Data Passing\n5. Interactive UI Elements\n6. Optionals & Unwrapping\n7. Delegation Pattern\n8. App Assets & Visuals\n9. Collaborative Workflows (Github)\n10. Alert Controllers"
+            } else if tappedIndexPath.row == 2{
+                destinationVC.incomingTitle = "UI Design"
+                destinationVC.incomingDetails = "Our team has already laid a foundation for the main gift registry page and the add-gift page.\n\nThe main gift registry page is a dynamic table view that will allow users to add, delete, and edit gifts from their list.\n\nThe add-gift page includes a form that allows users to add new gifts to their list with their name, description, store hyperlink, and an image. \n\nMore work is needed to give the application a clean user experience, and to implement backend programming to link the functions of two current pages.\n\nAdditional features may be added as time permits, such as exporting a gift registry or new parameters for the add-gift page."
             }
         }
     }
 
+    
+    
 
 }
 
