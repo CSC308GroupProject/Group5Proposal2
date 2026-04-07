@@ -45,6 +45,9 @@ class ViewController: UITableViewController {
             if tappedIndexPath.row == 0{
                 destinationVC.incomingTitle = "Timeline"
                 destinationVC.incomingDetails = "By Friday - Working prototype of the Project\nBy Tuesday (4/14/26) - Implement features\nBy Friday (4/17/26) - Finalizing Project\nBy Tuesday (4/21/26) - Turn in and complete project."
+            } else if tappedIndexPath.row == 1{
+                destinationVC.incomingTitle = "Key Topics"
+                destinationVC.incomingDetails = "1. Auto Layout & Constraints\n2. Dynamic Table Views\n3. Navigation Controllers & Segues\n4. Data Passing\n5. Interactive UI Elements\n6. Optionals & Unwrapping\n7. Delegation Pattern\n8. App Assets & Visuals\n9. Collaborative Workflows (Github)\n10. Alert Controllers"
             }
         }
     }
