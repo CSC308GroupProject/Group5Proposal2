@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="114" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--Group 5 Proposal-->
         <scene sceneID="skH-hJ-z6C">
             <objects>
                 <tableViewController id="LSG-ti-O7s" customClass="ViewController" customModule="Group5Proposal2" customModuleProvider="target" sceneMemberID="viewController">
@@ -139,10 +139,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="353" height="123"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageUI" translatesAutoresizingMaskIntoConstraints="NO" id="5B8-1r-iiQ">
-                                                    <rect key="frame" x="-34" y="-3" width="240" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Project UI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3q-w2-kjL">
                                                     <rect key="frame" x="192" y="47" width="97" height="28"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -150,9 +146,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageUI" translatesAutoresizingMaskIntoConstraints="NO" id="5B8-1r-iiQ">
+                                                    <rect key="frame" x="0.0" y="7" width="190" height="110"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.70401547740000003" green="1" blue="0.97548389440000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.96352135459999999" green="1" blue="0.6498333261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -162,7 +162,7 @@
                             <outlet property="delegate" destination="LSG-ti-O7s" id="qng-yU-M3S"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="0My-oA-nOv"/>
+                    <navigationItem key="navigationItem" title="Group 5 Proposal" id="0My-oA-nOv"/>
                     <connections>
                         <segue destination="wv6-AU-duE" kind="show" identifier="showMember" id="Kgl-ig-FaA"/>
                         <segue destination="Q3U-rP-lDP" kind="show" identifier="showProject" id="ON8-Wp-ca4"/>
@@ -216,21 +216,72 @@
             </objects>
             <point key="canvasLocation" x="2881.679389312977" y="801.4084507042254"/>
         </scene>
-        <!--Member View Controller-->
+        <!--Member-->
         <scene sceneID="Jdi-ax-pPL">
             <objects>
                 <viewController id="wv6-AU-duE" customClass="MemberViewController" customModule="Group5Proposal2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FU9-lF-1j7">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teamwork" translatesAutoresizingMaskIntoConstraints="NO" id="rQB-kF-E7g">
+                                <rect key="frame" x="30" y="172" width="333" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="p8m-NN-mW9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Member" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdr-yV-D2n">
+                                <rect key="frame" x="16" y="338" width="361" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hLF-TT-waB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEQ-Lb-dt7">
+                                <rect key="frame" x="16" y="394" width="361" height="40"/>
+                                <color key="backgroundColor" red="0.70401547740000003" green="1" blue="0.97548389440000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="D2b-go-9Hc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Responsibilities:" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFy-VP-EnK">
+                                <rect key="frame" x="16" y="450" width="361" height="250"/>
+                                <color key="backgroundColor" red="0.70401547740000003" green="1" blue="0.97548389440000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="q6z-br-3ue"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="T1g-5O-hMp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.78197857240000002" blue="0.70764732689999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZEQ-Lb-dt7" firstAttribute="leading" secondItem="T1g-5O-hMp" secondAttribute="leading" constant="16" id="0th-De-GBb"/>
+                            <constraint firstItem="rQB-kF-E7g" firstAttribute="leading" secondItem="T1g-5O-hMp" secondAttribute="leading" constant="30" id="8Mq-Hh-vak"/>
+                            <constraint firstItem="Sdr-yV-D2n" firstAttribute="leading" secondItem="T1g-5O-hMp" secondAttribute="leading" constant="16" id="B1F-w5-6I7"/>
+                            <constraint firstItem="T1g-5O-hMp" firstAttribute="trailing" secondItem="Sdr-yV-D2n" secondAttribute="trailing" constant="16" id="EcF-qW-2rQ"/>
+                            <constraint firstItem="tFy-VP-EnK" firstAttribute="top" secondItem="ZEQ-Lb-dt7" secondAttribute="bottom" constant="16" id="Ews-f5-Wbm"/>
+                            <constraint firstItem="rQB-kF-E7g" firstAttribute="top" secondItem="T1g-5O-hMp" secondAttribute="top" id="GRe-1v-z5v"/>
+                            <constraint firstItem="T1g-5O-hMp" firstAttribute="trailing" secondItem="tFy-VP-EnK" secondAttribute="trailing" constant="16" id="P8L-qo-Uvw"/>
+                            <constraint firstItem="Sdr-yV-D2n" firstAttribute="top" secondItem="rQB-kF-E7g" secondAttribute="bottom" constant="16" id="VKq-F7-5rY"/>
+                            <constraint firstItem="T1g-5O-hMp" firstAttribute="trailing" secondItem="ZEQ-Lb-dt7" secondAttribute="trailing" constant="16" id="VY6-Th-GRp"/>
+                            <constraint firstItem="T1g-5O-hMp" firstAttribute="trailing" secondItem="rQB-kF-E7g" secondAttribute="trailing" constant="30" id="Y3a-GK-0yh"/>
+                            <constraint firstItem="tFy-VP-EnK" firstAttribute="leading" secondItem="T1g-5O-hMp" secondAttribute="leading" constant="16" id="xjt-jK-mSh"/>
+                            <constraint firstItem="ZEQ-Lb-dt7" firstAttribute="top" secondItem="Sdr-yV-D2n" secondAttribute="bottom" constant="16" id="y3O-MI-31F"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="f9X-mE-gdb"/>
+                    <navigationItem key="navigationItem" title="Member" id="f9X-mE-gdb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="46M-4O-mbF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3156" y="61"/>
+            <point key="canvasLocation" x="2840.4580152671756" y="21.126760563380284"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SVZ-oC-ukR">
@@ -254,6 +305,7 @@
     <resources>
         <image name="Simulator Screenshot - iPhone 16 Pro - 2026-04-07 at 11.37.53" width="1206" height="2622"/>
         <image name="imageUI" width="512" height="512"/>
+        <image name="teamwork" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
