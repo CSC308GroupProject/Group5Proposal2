@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="114" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--Group 5 Proposal-->
         <scene sceneID="skH-hJ-z6C">
             <objects>
                 <tableViewController id="LSG-ti-O7s" customClass="ViewController" customModule="Group5Proposal2" customModuleProvider="target" sceneMemberID="viewController">
@@ -162,7 +162,7 @@
                             <outlet property="delegate" destination="LSG-ti-O7s" id="qng-yU-M3S"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="0My-oA-nOv"/>
+                    <navigationItem key="navigationItem" title="Group 5 Proposal" id="0My-oA-nOv"/>
                     <connections>
                         <segue destination="wv6-AU-duE" kind="show" identifier="showMember" id="Kgl-ig-FaA"/>
                         <segue destination="Q3U-rP-lDP" kind="show" identifier="showProject" id="ON8-Wp-ca4"/>
@@ -230,6 +230,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEQ-Lb-dt7">
                                 <rect key="frame" x="16" y="394" width="361" height="40"/>
+                                <color key="backgroundColor" red="0.70401547740000003" green="1" blue="0.97548389440000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="D2b-go-9Hc"/>
                                 </constraints>
@@ -239,6 +240,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Responsibilities:" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFy-VP-EnK">
                                 <rect key="frame" x="16" y="450" width="361" height="250"/>
+                                <color key="backgroundColor" red="0.70401547740000003" green="1" blue="0.97548389440000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="q6z-br-3ue"/>
                                 </constraints>
